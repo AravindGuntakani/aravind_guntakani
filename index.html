@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="style.css">
+    <title>Aravind G – Portfolio</title>
+</head>
+<body>
+    <nav>
+        <div class="logo" data-aos="zoom-in" data-aos-duration="1500">
+            Aravind <span>Guntakani</span>
+        </div>
+        <div class="nav-container">
+            <div class="links">
+                <a href="#home" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100">Home</a>
+                <a href="#skills" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200">Skills</a>
+                <a href="#intro" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="300">About</a>
+                <a href="#services" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="400">Experience</a>
+                <a href="#contact" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="500">Contact</a>
+            </div>
+        </div>
+        <i class="fa-solid fa-bars hamburg" onclick="hamburg()"></i>
+        <div class="dropdown">
+            <div class="links">
+                <a href="#home">Home</a>
+                <a href="#skills">Skills</a>
+                <a href="#intro">About</a>
+                <a href="#services">Experience</a>
+                <a href="#contact">Contact</a>
+                <i class="fa-solid fa-xmark cancel" onclick="cancel()"></i>
+            </div>
+        </div>
+    </nav>
+
+    <section id="home">
+        <div class="main-container">
+            <div class="content">
+                <h1 data-aos="fade-right" data-aos-duration="1500" data-aos-delay="600">Hey, I'm <span>Aravind</span></h1>
+                <div data-aos="fade-left" data-aos-duration="1500" data-aos-delay="800" class="typewriter">I'm a <span class="typewriter-text">.NET Developer</span><label>|</label></div>
+
+                <p data-aos="flip-down" data-aos-duration="1500" data-aos-delay="1000">
+                    I have 2 years of experience as a .NET Backend Developer at Infosys.
+                    Skilled in RESTful API development, SQL optimization, troubleshooting, and delivering scalable backend systems.
+                    Passionate about solving technical challenges and improving system performance.
+                </p>
+
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/aravind-guntakani-56a33121a" target="_blank"><i class="fa-brands fa-linkedin" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1200"></i></a>
+                    <a href="https://github.com" target="_blank"><i class="fa-brands fa-github" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1300"></i></a>
+                </div>
+
+                <a href="Aravind-CV.pdf" download><button data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="1700">Download CV</button></a>
+            </div>
+
+            <div class="image" data-aos="zoom-in" data-aos-duration="2000">
+                <img src="main.jpg" alt="Aravind Photo">
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="skills-section">
+        <h2>Technical Skills</h2>
+        <ul>
+            <li>C#, Python</li>
+            <li>ASP.NET MVC, Entity Framework Core</li>
+            <li>AngularJS, TypeScript</li>
+            <li>SQL, HTML, CSS</li>
+            <li>RESTful APIs</li>
+        </ul>
+    </section>
+
+    <section id="intro" class="about-section">
+        <h2>About Me</h2>
+        <p>
+            I enjoy collaborating with clients and cross‑functional teams to build reliable, scalable backend systems.
+            I focus on optimizing workflows, improving performance, and delivering solutions that truly make an impact.
+        </p>
+    </section>
+
+    <section id="services" class="experience-section">
+        <h2>Work Experience</h2>
+        <h3>Systems Engineer – Infosys (Feb 2022 – Sep 2024)</h3>
+        <ul>
+            <li>Developed backend services using C#, .NET Core, Web API, and SQL Server.</li>
+            <li>Designed RESTful APIs and integrated third‑party systems.</li>
+            <li>Handled incident management, bug fixing, and root‑cause analysis.</li>
+            <li>Monitored production logs, troubleshoot issues, and ensured system uptime.</li>
+            <li>Participated in deployment, version control, and post‑release validations.</li>
+        </ul>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <h2>Contact</h2>
+        <p>Email: <a href="mailto:aravindg0070@gmail.com">aravindg0070@gmail.com</a></p>
+        <p>Location: London</p>
+        <p>Mobile: 07930241905</p>
+    </section>
+
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({offset:0});
+    </script>
+</body>
+</html>
